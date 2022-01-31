@@ -122,7 +122,7 @@ service_packages:
           port: 80
           protocol: http
           read_timeout: 60000
-          retries: 5
+          retries: 4
           routes:
           - hosts:
             - account
