@@ -79,7 +79,7 @@ service_packages:
               echo_downstream: false
               generator: uuid#counter
               header_name: Kong-Request-ID
-            enabled: true
+            enabled: false
             name: correlation-id
             protocols:
             - grpc
